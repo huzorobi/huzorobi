@@ -1,28 +1,29 @@
-# # Hi, I'm Robert Huzo
+# Hi, I'm Robert Huzo 👋
 
-Cyber Security student at Solent University and founder of HuzoSecurity Ltd.
+Founder of HuzoSecurity Ltd
 
-I am currently developing HuzoHunter AI, a local AI-powered threat hunting platform focused on helping organisations improve cybersecurity while maintaining control over sensitive data.
+Cyber Security student at Solent University.
+
+Currently building HuzoHunter AI, a local AI-powered threat hunting platform designed to help organisations improve cyber resilience while maintaining control of their data.
 
 ## Areas of Interest
 
-- Artificial Intelligence
-- AI Safety
 - Cyber Security
 - Threat Hunting
+- AI Safety
+- Local AI Models
 - Security Automation
-- Local LLMs
-- Penetration Testing
+- Ethical Hacking
 
 ## Current Projects
 
-### HuzoSecurity Ltd
-Cybersecurity consultancy focused on helping organisations improve their security posture.
+- HuzoSecurity Ltd
+- HuzoHunter AI
+- Local AI Research
+- Security Automation Tools
 
-### HuzoHunter AI
-Local AI-powered threat hunting and security operations platform designed for organisations that require privacy, control and explainable AI.
+Website:
+https://huzosecurity.com
 
-## Links
-
-- Website: https://huzosecurity.com
-- LinkedIn: https://www.linkedin.com/in/robert-huzo
+LinkedIn:
+https://www.linkedin.com/in/robert-huzo
