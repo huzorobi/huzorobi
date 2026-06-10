@@ -38,7 +38,7 @@ mission:     Give organisations enterprise-grade threat detection
 focus:       Threat Hunting · AI Safety · Security Automation · Ethical Hacking
 ```
 
-- 🔭 &nbsp;Currently building **[HuzoHunter AI](https://github.com/huzorobi/-HuzoHunter-AI)** — local AI-powered threat hunting & security automation
+- 🔭 &nbsp;Currently building **[HuzoHunter AI](https://github.com/huzorobi/HuzoHunter-AI)** — local AI-powered threat hunting & security automation
 - 🛡️ &nbsp;Passionate about **defensive security**, **explainable AI**, and **data sovereignty**
 - 🌱 &nbsp;Always learning: local LLMs, detection engineering, and SOC automation
 - 💬 &nbsp;Ask me about **threat hunting, Wazuh, and running AI models locally**
@@ -57,8 +57,8 @@ Advanced threat detection, investigation, and response — while keeping sensiti
 
 `Local AI` · `Threat Hunting Automation` · `Explainable Investigations` · `M365 + Active Directory Integration`
 
-<a href="https://github.com/huzorobi/-HuzoHunter-AI">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=huzorobi&repo=-HuzoHunter-AI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF" alt="HuzoHunter AI" />
+<a href="https://github.com/huzorobi/HuzoHunter-AI">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=huzorobi&repo=HuzoHunter-AI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF" alt="HuzoHunter AI" />
 </a>
 
 </div>
@@ -116,4 +116,10 @@ Advanced threat detection, investigation, and response — while keeping sensiti
 
 <em>"Security is not a product, but a process."</em>
 
+</div>
+
+---
+
+<div align="center">
+<sub><strong>Last updated 2026-06-10</strong> · Currently building <a href="https://github.com/huzorobi/HuzoHunter-AI">HuzoHunter AI</a> — now at v0.5.0 🔐</sub>
 </div>
