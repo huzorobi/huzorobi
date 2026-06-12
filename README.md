@@ -2,7 +2,7 @@
 <div align="center">
 
 <a href="https://huzosecurity.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Robert+Huzo+%F0%9F%91%8B;Founder+%40+HuzoSecurity+Ltd;Building+HuzoHunter+AI+%F0%9F%9A%80;Threat+Hunting+%7C+AI+Safety+%7C+Security+Automation" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Robert+Huzo+%F0%9F%91%8B;Founder+%40+HuzoSecurity+Ltd;Building+HuzoHunter+AI+%F0%9F%9A%80;Now+building+NullCadre+%F0%9F%9B%B0%EF%B8%8F;Threat+Hunting+%7C+AI+Safety+%7C+Security+Automation" alt="Typing SVG" />
 </a>
 
 <p>
@@ -33,12 +33,14 @@ name:        Robert Huzo
 role:        Founder, HuzoSecurity Ltd
 studying:    BSc Cyber Security @ Solent University
 building:    HuzoHunter AI — a local, privacy-first threat-hunting platform
+brewing:     NullCadre — agentic AI for authorized offensive security (in the lab)
 mission:     Give organisations enterprise-grade threat detection
              without surrendering control of their data
 focus:       Threat Hunting · AI Safety · Security Automation · Ethical Hacking
 ```
 
 - 🔭 &nbsp;Currently building **[HuzoHunter AI](https://github.com/huzorobi/HuzoHunter-AI)** — local AI-powered threat hunting & security automation
+- 🛰️ &nbsp;Quietly building **NullCadre** — an agentic offensive-security framework (👀 more soon)
 - 🛡️ &nbsp;Passionate about **defensive security**, **explainable AI**, and **data sovereignty**
 - 🌱 &nbsp;Always learning: local LLMs, detection engineering, and SOC automation
 - 💬 &nbsp;Ask me about **threat hunting, Wazuh, and running AI models locally**
@@ -60,6 +62,30 @@ Advanced threat detection, investigation, and response — while keeping sensiti
 <a href="https://github.com/huzorobi/HuzoHunter-AI">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=huzorobi&repo=HuzoHunter-AI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF" alt="HuzoHunter AI" />
 </a>
+
+</div>
+
+---
+
+## 🧪 In the Lab &nbsp;<sub>·&nbsp;*new*</sub>
+
+<div align="center">
+
+### 🛰️ NullCadre
+**Agentic AI for _authorized_ offensive security**
+
+A coordinated crew of autonomous agents — recon, threat-intel, web validation, network segmentation,
+reporting — orchestrated by AI behind a **fail-closed scope gate**. One rule, baked into the core:
+
+> ### *Nothing runs out of scope.*
+
+The offensive twin to HuzoHunter AI: provably-scoped, signed, and audited offensive security that a
+single operator can direct — fast, repeatable, and safe by construction.
+
+`Agentic AI` · `Offensive Security` · `Scope-Gated Automation` · `Local LLMs`
+
+🚧 **In active development** — core repo stays **private** while it takes shape. The *how* is under
+wraps. The *goal* isn't. 👀
 
 </div>
 
@@ -121,5 +147,5 @@ Advanced threat detection, investigation, and response — while keeping sensiti
 ---
 
 <div align="center">
-<sub><strong>Last updated 2026-06-10</strong> · Currently building <a href="https://github.com/huzorobi/HuzoHunter-AI">HuzoHunter AI</a> — now at v0.5.0 🔐</sub>
+<sub><strong>Last updated 2026-06-12</strong> · Building <a href="https://github.com/huzorobi/HuzoHunter-AI">HuzoHunter AI</a> 🔐 &amp; <strong>NullCadre</strong> 🛰️ <em>(in the lab)</em></sub>
 </div>
