@@ -1,23 +1,26 @@
 <!-- ===== HEADER ===== -->
 <div align="center">
 
-<a href="https://huzosecurity.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Robert+Huzo+%F0%9F%91%8B;Founder+%40+HuzoSecurity+Ltd;Building+HuzoHunter+AI+%F0%9F%9A%80;Now+building+NullCadre+%F0%9F%9B%B0%EF%B8%8F;Threat+Hunting+%7C+AI+Safety+%7C+Security+Automation" alt="Typing SVG" />
+<a href="https://nullcadre.com">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Robert+Huzo+%F0%9F%91%8B;Founder+%26+Pen+Tester+%40+HuzoSecurity+Ltd;Building+NullCadre+%F0%9F%9B%B0%EF%B8%8F;AI-assisted+offensive+security;Proven%2C+gated%2C+local-only" alt="Typing SVG" />
 </a>
 
 <p>
-  <em>Cyber Security student @ Solent University &nbsp;•&nbsp; Local-AI threat hunting &nbsp;•&nbsp; Keeping your data yours 🔐</em>
+<em>Founder and penetration tester &nbsp;•&nbsp; AI-assisted offensive security &nbsp;•&nbsp; Manchester, UK 🔐</em>
 </p>
 
 <!-- ===== SOCIAL BADGES ===== -->
+<a href="https://nullcadre.com">
+<img src="https://img.shields.io/badge/NullCadre-nullcadre.com-00E5FF?style=for-the-badge&logo=target&logoColor=white" alt="NullCadre" />
+</a>
 <a href="https://huzosecurity.com">
-  <img src="https://img.shields.io/badge/Website-huzosecurity.com-00E5FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+<img src="https://img.shields.io/badge/Website-huzosecurity.com-0D1117?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
 </a>
 <a href="https://www.linkedin.com/in/robert-huzo">
-  <img src="https://img.shields.io/badge/LinkedIn-Robert%20Huzo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+<img src="https://img.shields.io/badge/LinkedIn-Robert%20Huzo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="mailto:huzorobi@gmail.com">
-  <img src="https://img.shields.io/badge/Email-huzorobi@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+<a href="mailto:robert@huzosecurity.com">
+<img src="https://img.shields.io/badge/Email-robert@huzosecurity.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 <br/>
 <img src="https://komarev.com/ghpvc/?username=huzorobi&style=for-the-badge&color=00E5FF&label=Profile+Views" alt="Profile views" />
@@ -29,22 +32,22 @@
 ## 🧠 About Me
 
 ```yaml
-name:        Robert Huzo
-role:        Founder, HuzoSecurity Ltd
-studying:    BSc Cyber Security @ Solent University
-building:    HuzoHunter AI — a local, privacy-first threat-hunting platform
-brewing:     NullCadre — agentic AI for authorized offensive security (in the lab)
-mission:     Give organisations enterprise-grade threat detection
-             without surrendering control of their data
-focus:       Threat Hunting · AI Safety · Security Automation · Ethical Hacking
+name: Robert Huzo
+role: Founder and lead penetration tester, HuzoSecurity Ltd
+building: NullCadre, an AI-assisted penetration testing and bug-hunting platform
+also: HuzoHunter AI, a local-first defensive threat-hunting platform
+principle: The engine proves the facts. The AI reasons about them. The model never decides whether a bug exists.
+focus: Web and API testing · Authorisation (BOLA/IDOR/BFLA) · LLM application security · Security automation
+certs: CompTIA Security+ · CompTIA A+ · EC-Council CEH (5-day hands-on training)
+bounty: HackerOne · Bugcrowd · Intigriti · YesWeHack
 ```
 
-- 🔭 &nbsp;Currently building **[HuzoHunter AI](https://github.com/huzorobi/HuzoHunter-AI)** — local AI-powered threat hunting & security automation
-- 🛰️ &nbsp;Quietly building **NullCadre** — an agentic offensive-security framework (👀 more soon)
-- 🛡️ &nbsp;Passionate about **defensive security**, **explainable AI**, and **data sovereignty**
-- 🌱 &nbsp;Always learning: local LLMs, detection engineering, and SOC automation
-- 💬 &nbsp;Ask me about **threat hunting, Wazuh, and running AI models locally**
-- 📫 &nbsp;Reach me at **huzorobi@gmail.com** or via [huzosecurity.com](https://huzosecurity.com)
+- 🛰️ &nbsp;Building and running **[NullCadre](https://nullcadre.com)**, used daily on authorised engagements and bug bounty targets
+- 🛡️ &nbsp;Building **[HuzoHunter AI](https://github.com/huzorobi/HuzoHunter-AI)**, the defensive counterpart, for organisations that can't ship telemetry to a cloud vendor
+- 📄 &nbsp;Read a **[full worked assessment](https://huzosecurity.com/sample)** with the evidence behind every finding
+- 🎓 &nbsp;BSc Cyber Security, Solent University (in progress) · NVIDIA Inception member
+- 💬 &nbsp;Ask me about **authorisation testing, LLM attack surfaces, and running AI models locally**
+- 📫 &nbsp;Reach me at **robert@huzosecurity.com** or via [huzosecurity.com](https://huzosecurity.com)
 
 ---
 
@@ -52,40 +55,56 @@ focus:       Threat Hunting · AI Safety · Security Automation · Ethical Hacki
 
 <div align="center">
 
-### 🤖 HuzoHunter AI
-**Local AI-powered threat hunting & security automation platform**
+### 🛰️ NullCadre
+**AI-assisted penetration testing and bug-hunting platform**
 
-Advanced threat detection, investigation, and response — while keeping sensitive data fully under your control.
+Live, and exercised daily against authorised targets and known-answer benchmarks.
+
+`Deterministic-first` · `Fail-closed scope gate` · `Local AI only` · `Under 5% false positives`
+
+</div>
+
+**How it works**
+
+- A deterministic battery runs first, every applicable detector, exhaustively. Each finding carries structured evidence and a grade.
+- An autonomous **Hunter** (a local LLM) then takes those findings as its starting knowledge and builds a real attack chain: observation, hypothesis, probe, pivot, evidence. It can only add to the baseline, never reduce it, and CI tests assert that on every build.
+- Every action, from recon to confirmation, passes a fail-closed scope gate enforced in code (`scope.gate.validate()`) before a packet leaves. No prompt-based trust, no bypass, no trusted mode.
+- Criticals are confirmed out of band with a working proof of concept. Anything that could not run is reported as **NOT TESTED**, with the reason, never as a clean result.
+
+**Numbers**
+
+- **Under 5% false-positive rate**, measured across several public vulnerable applications, a published authorisation-testing benchmark, and a fully patched self-hosted target where the correct answer is nothing found
+- **432** integrated scanner and tool modules · **27** Hunter action modules · **8** report formats (HTML, PDF, Markdown, CSV, JSON, SARIF, OCSF, executive one-pager)
+- Runs entirely on the operator's estate. No target data leaves the machine, including for report narration.
+
+**What it covers**
+
+Recon and attack surface mapping · injection classes confirmed out of band (SSRF, SSTI, XXE, SQLi, command injection, request smuggling, cache poisoning) · a two- and three-account **BOLA/IDOR/BFLA** engine with a third-account control to kill the classic false positives · JWT, SAML, OAuth and session attacks · secrets and exposure · cloud and container posture · Active Directory attack paths · WordPress and Drupal read-only assessment · **LLM application security** (prompt injection, sandbox escape, authorisation boundaries, exposed AI endpoints and MCP servers)
+
+> ### *Nothing runs out of scope.*
+
+**Principles**
+
+Report impact, not observations. Absence of evidence is not evidence of absence. Never say "fixed"; the strongest honest claim is "not rediscovered". Confirm, don't weaponise: no persistence, no credential dumping, nothing destructive.
+
+🔒 The core repository is **private** and proprietary to HuzoSecurity Ltd. The platform runs behind a HuzoSecurity engagement; it is not sold or licensed.
+
+---
+
+## 🛡️ Also Building
+
+<div align="center">
+
+### 🤖 HuzoHunter AI
+**Local-first threat hunting and security automation**
+
+The defensive counterpart to NullCadre. Explainable investigations, with sensitive data staying fully under your control.
 
 `Local AI` · `Threat Hunting Automation` · `Explainable Investigations` · `M365 + Active Directory Integration`
 
 <a href="https://github.com/huzorobi/HuzoHunter-AI">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=huzorobi&repo=HuzoHunter-AI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF" alt="HuzoHunter AI" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=huzorobi&repo=HuzoHunter-AI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF" alt="HuzoHunter AI" />
 </a>
-
-</div>
-
----
-
-## 🧪 In the Lab &nbsp;<sub>·&nbsp;*new*</sub>
-
-<div align="center">
-
-### 🛰️ NullCadre
-**Agentic AI for _authorized_ offensive security**
-
-A coordinated crew of autonomous agents — recon, threat-intel, web validation, network segmentation,
-reporting — orchestrated by AI behind a **fail-closed scope gate**. One rule, baked into the core:
-
-> ### *Nothing runs out of scope.*
-
-The offensive twin to HuzoHunter AI: provably-scoped, signed, and audited offensive security that a
-single operator can direct — fast, repeatable, and safe by construction.
-
-`Agentic AI` · `Offensive Security` · `Scope-Gated Automation` · `Local LLMs`
-
-🚧 **In active development** — core repo stays **private** while it takes shape. The *how* is under
-wraps. The *goal* isn't. 👀
 
 </div>
 
@@ -96,18 +115,19 @@ wraps. The *goal* isn't. 👀
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-![Wazuh](https://img.shields.io/badge/Wazuh-3578E5?style=for-the-badge&logo=wazuh&logoColor=white)
-![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/NVIDIA%20GPU-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite%20Pro-FF6633?style=for-the-badge&logo=portswigger&logoColor=white)
+![OWASP ZAP](https://img.shields.io/badge/OWASP%20ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white)
+![Nuclei](https://img.shields.io/badge/Nuclei-0E0E0E?style=for-the-badge&logoColor=white)
+![BloodHound](https://img.shields.io/badge/BloodHound-D32F2F?style=for-the-badge&logoColor=white)
 
 ![Local LLMs](https://img.shields.io/badge/Local%20LLMs-FF6F00?style=for-the-badge&logo=ollama&logoColor=white)
+![NVIDIA](https://img.shields.io/badge/NVIDIA%20GPU-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-3578E5?style=for-the-badge&logo=wazuh&logoColor=white)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-D32F2F?style=for-the-badge&logo=mitre&logoColor=white)
-![Threat Intel](https://img.shields.io/badge/Threat%20Intelligence-8E24AA?style=for-the-badge&logo=hackthebox&logoColor=white)
 
 </div>
 
@@ -136,16 +156,17 @@ wraps. The *goal* isn't. 👀
 
 ### 🤝 Let's connect
 
-[![Website](https://img.shields.io/badge/-huzosecurity.com-00E5FF?style=flat-square&logo=google-chrome&logoColor=white)](https://huzosecurity.com)
+[![NullCadre](https://img.shields.io/badge/-nullcadre.com-00E5FF?style=flat-square&logo=target&logoColor=white)](https://nullcadre.com)
+[![Website](https://img.shields.io/badge/-huzosecurity.com-0D1117?style=flat-square&logo=google-chrome&logoColor=white)](https://huzosecurity.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/robert-huzo)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:huzorobi@gmail.com)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:robert@huzosecurity.com)
 
-<em>"Security is not a product, but a process."</em>
+<em>Authorised testing only. Testing without written permission is an offence under the Computer Misuse Act 1990.</em>
 
 </div>
 
 ---
 
 <div align="center">
-<sub><strong>Last updated 2026-06-12</strong> · Building <a href="https://github.com/huzorobi/HuzoHunter-AI">HuzoHunter AI</a> 🔐 &amp; <strong>NullCadre</strong> 🛰️ <em>(in the lab)</em></sub>
+<sub><strong>Last updated 2026-09-15</strong> · Building <a href="https://nullcadre.com">NullCadre</a> 🛰️ &amp; <a href="https://github.com/huzorobi/HuzoHunter-AI">HuzoHunter AI</a> 🔐</sub>
 </div>
