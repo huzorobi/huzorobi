@@ -67,19 +67,19 @@ Live, and exercised daily against authorised targets and known-answer benchmarks
 **How it works**
 
 - A deterministic battery runs first, every applicable detector, exhaustively. Each finding carries structured evidence and a grade.
-- An autonomous **Hunter** (a local LLM) then takes those findings as its starting knowledge and builds a real attack chain: observation, hypothesis, probe, pivot, evidence. It can only add to the baseline, never reduce it, and CI tests assert that on every build.
+- An operator-enabled **Hunter** (a local LLM) then takes those findings as its starting knowledge and builds a real attack chain: observation, hypothesis, probe, pivot, evidence. It can only add to the baseline, never reduce it, and CI tests assert that on every build.
 - Every action, from recon to confirmation, passes a fail-closed scope gate enforced in code (`scope.gate.validate()`) before a packet leaves. No prompt-based trust, no bypass, no trusted mode.
 - Criticals are confirmed out of band with a working proof of concept. Anything that could not run is reported as **NOT TESTED**, with the reason, never as a clean result.
 
 **Numbers**
 
 - **Under 5% false-positive rate**, measured across several public vulnerable applications, a published authorisation-testing benchmark, and a fully patched self-hosted target where the correct answer is nothing found
-- **432** integrated scanner and tool modules · **27** Hunter action modules · **8** report formats (HTML, PDF, Markdown, CSV, JSON, SARIF, OCSF, executive one-pager)
+- **479** integrated scanner and tool modules · **151** Hunter actions · **8** report formats (HTML, PDF, Markdown, CSV, JSON, SARIF, OCSF, executive one-pager)
 - Runs entirely on the operator's estate. No target data leaves the machine, including for report narration.
 
 **What it covers**
 
-Recon and attack surface mapping · injection classes confirmed out of band (SSRF, SSTI, XXE, SQLi, command injection, request smuggling, cache poisoning) · a two- and three-account **BOLA/IDOR/BFLA** engine with a third-account control to kill the classic false positives · JWT, SAML, OAuth and session attacks · secrets and exposure · cloud and container posture · Active Directory attack paths · WordPress and Drupal read-only assessment · **LLM application security** (prompt injection, sandbox escape, authorisation boundaries, exposed AI endpoints and MCP servers)
+Recon and attack surface mapping · injection classes confirmed out of band (SSRF, SSTI, XXE, SQLi, command injection, request smuggling, cache poisoning) · a two- and three-account **BOLA/IDOR/BFLA** engine with a third-account control to kill the classic false positives · JWT, SAML, OAuth and session attacks · race conditions and TOCTOU (single-packet) · business-logic abuse · secrets and exposure · cloud and container posture · Active Directory attack paths · WordPress and Drupal read-only assessment · **LLM application security** (prompt injection, sandbox escape, authorisation boundaries, exposed AI endpoints and MCP servers)
 
 > ### *Nothing runs out of scope.*
 
@@ -168,5 +168,5 @@ The defensive counterpart to NullCadre. Explainable investigations, with sensiti
 ---
 
 <div align="center">
-<sub><strong>Last updated 2026-09-15</strong> · Building <a href="https://nullcadre.com">NullCadre</a> 🛰️ &amp; <a href="https://github.com/huzorobi/HuzoHunter-AI">HuzoHunter AI</a> 🔐</sub>
+<sub><strong>Last updated 2026-09-27</strong> · Building <a href="https://nullcadre.com">NullCadre</a> 🛰️ &amp; <a href="https://github.com/huzorobi/HuzoHunter-AI">HuzoHunter AI</a> 🔐</sub>
 </div>
