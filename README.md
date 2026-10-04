@@ -64,6 +64,33 @@ Live, and exercised daily against authorised targets and known-answer benchmarks
 
 </div>
 
+<div align="center">
+
+```mermaid
+flowchart LR
+    T["🎯 Authorised<br/>target"] --> G{{"🚦 Scope gate<br/><code>scope.gate.validate()</code><br/><i>fail closed, in code</i>"}}
+    G -->|"out of scope"| X["⛔ Refused<br/><i>no packet leaves</i>"]
+    G -->|"in scope"| D["🔬 Deterministic battery<br/>501 modules, exhaustive"]
+    D --> E[("📊 Evidence<br/><i>graded, structured</i>")]
+    E --> H["🧠 Hunter · local LLM<br/>observation → hypothesis<br/>→ probe → pivot"]
+    H -->|"new leads"| G
+    E --> V{{"✅ Confirmed out of band<br/><i>working proof of concept</i>"}}
+    V -->|"could not run"| N["⚠️ NOT TESTED<br/><i>with the reason</i>"]
+    V -->|"proven"| R["📄 Report · 8 formats"]
+    N --> R
+
+    style G fill:#7c3aed,stroke:#5b21b6,color:#fff
+    style X fill:#dc2626,stroke:#991b1b,color:#fff
+    style H fill:#be123c,stroke:#9f1239,color:#fff
+    style N fill:#d97706,stroke:#b45309,color:#fff
+    style E fill:#0891b2,stroke:#0e7490,color:#fff
+```
+
+<sub><b>The engine proves the facts. The model reasons about them.</b> The Hunter can only add to the
+baseline, never reduce it, and every lead it proposes goes back through the same gate.</sub>
+
+</div>
+
 **How it works**
 
 - A deterministic battery runs first, every applicable detector, exhaustively. Each finding carries structured evidence and a grade.
@@ -74,12 +101,17 @@ Live, and exercised daily against authorised targets and known-answer benchmarks
 **Numbers**
 
 - **Under 5% false-positive rate**, measured across several public vulnerable applications, a published authorisation-testing benchmark, and a fully patched self-hosted target where the correct answer is nothing found
-- **479** integrated scanner and tool modules · **151** Hunter actions · **8** report formats (HTML, PDF, Markdown, CSV, JSON, SARIF, OCSF, executive one-pager)
+- **501** integrated scanner and tool modules · **156** Hunter actions · **8** report formats (HTML, PDF, Markdown, CSV, JSON, SARIF, OCSF, executive one-pager)
 - Runs entirely on the operator's estate. No target data leaves the machine, including for report narration.
 
-**What it covers**
+<details>
+<summary><b>🎯 What it covers</b> &nbsp;<sub>click to expand</sub></summary>
+
+<br>
 
 Recon and attack surface mapping · injection classes confirmed out of band (SSRF, SSTI, XXE, SQLi, command injection, request smuggling, cache poisoning) · a two- and three-account **BOLA/IDOR/BFLA** engine with a third-account control to kill the classic false positives · JWT, SAML, OAuth and session attacks · race conditions and TOCTOU (single-packet) · business-logic abuse · secrets and exposure · cloud and container posture · Active Directory attack paths · WordPress and Drupal read-only assessment · **LLM application security** (prompt injection, sandbox escape, authorisation boundaries, exposed AI endpoints and MCP servers)
+
+</details>
 
 > ### *Nothing runs out of scope.*
 
@@ -144,10 +176,6 @@ The defensive counterpart to NullCadre. Explainable investigations, with sensiti
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=huzorobi&theme=tokyonight&hide_border=true&background=0D1117&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" alt="GitHub Streak" />
 
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=huzorobi&theme=tokyonight&no-frame=true&column=7&margin-w=10" alt="Trophies" />
-
 </div>
 
 ---
@@ -168,5 +196,5 @@ The defensive counterpart to NullCadre. Explainable investigations, with sensiti
 ---
 
 <div align="center">
-<sub><strong>Last updated 2026-09-27</strong> · Building <a href="https://nullcadre.com">NullCadre</a> 🛰️ &amp; <a href="https://github.com/huzorobi/HuzoHunter-AI">HuzoHunter AI</a> 🔐</sub>
+<sub><strong>Last updated 2026-10-04</strong> · Building <a href="https://nullcadre.com">NullCadre</a> 🛰️ &amp; <a href="https://github.com/huzorobi/HuzoHunter-AI">HuzoHunter AI</a> 🔐</sub>
 </div>
