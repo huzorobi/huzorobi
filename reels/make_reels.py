@@ -320,11 +320,14 @@ def build_layers(day, card_png, cap, meta):
     # thin light border so the card reads against the navy background
     bd = ImageDraw.Draw(sh)
     bd.rectangle((pad, pad, pad + cw - 1, pad + ch - 1), outline=(60, 86, 108, 255), width=2)
-    L["card"] = Layer(sh, (W - cw) // 2 - pad, 250 - pad)
-    cy = 250 + ch + 46
-    L["cta1"] = Layer(text_img("Free security test for UK businesses", F("WorkSans-SemiBold.ttf", 46), WHITE), 0, cy)
+    L["card"] = Layer(sh, (W - cw) // 2 - pad, 200 - pad)
+    cy = 200 + ch + 40
+    # The offer, word for word as on the cards and captions
+    L["cta1"] = Layer(text_img("Secure? It costs you nothing.", F("WorkSans-SemiBold.ttf", 44), WHITE), 0, cy)
     L["cta1"].x = (W - L["cta1"].w) // 2
-    L["cta2"] = Layer(text_img("LINK IN BIO  /  HUZOSECURITY.COM", F("IBMPlexMono-SemiBold.ttf", 30), RED), 0, cy + 70)
+    L["cta1b"] = Layer(text_img("Not secure? Your second test is free.", F("WorkSans-SemiBold.ttf", 44), RED), 0, cy + 60)
+    L["cta1b"].x = (W - L["cta1b"].w) // 2
+    L["cta2"] = Layer(text_img("LINK IN BIO  /  HUZOSECURITY.COM", F("IBMPlexMono-SemiBold.ttf", 28), GREY), 0, cy + 132)
     L["cta2"].x = (W - L["cta2"].w) // 2
     return L
 
@@ -423,7 +426,8 @@ def frames(L, globe, bg, stat):
             p = prog(t, T_S3_IN, 0.9)
             blend(f, L["card"], alpha=min(1, p * 1.8), dy=220 * (1 - p), scale=0.94 + 0.06 * p)
             blend(f, L["cta1"], alpha=prog(t, T_S3_IN + 0.6, 0.5), dy=20 * (1 - prog(t, T_S3_IN + 0.6, 0.5)))
-            blend(f, L["cta2"], alpha=prog(t, T_S3_IN + 0.8, 0.5))
+            blend(f, L["cta1b"], alpha=prog(t, T_S3_IN + 0.85, 0.5), dy=20 * (1 - prog(t, T_S3_IN + 0.85, 0.5)))
+            blend(f, L["cta2"], alpha=prog(t, T_S3_IN + 1.1, 0.5))
 
         # fade to navy at the very end so the loop is clean
         if t > T_END:
@@ -487,7 +491,11 @@ def main():
     repo, outdir = sys.argv[1:3]
     days = [int(d) for d in sys.argv[3:]] or list(range(1, 31))
     meta = json.load(open(os.path.join(HERE, "cards.json")))
-    sched = {e["day"]: e for e in json.load(open(os.path.join(repo, "instagram", "schedule.json")))}
+    sched = {}
+    for name in ("schedule.json", "reels.json"):
+        path = os.path.join(repo, "instagram", name)
+        if os.path.exists(path):
+            sched.update({e["day"]: e for e in json.load(open(path))})
     os.makedirs(outdir, exist_ok=True)
     audio = os.path.join(outdir, f"_bed_{os.getpid()}.wav")
     make_audio(audio)
