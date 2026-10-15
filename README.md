@@ -43,7 +43,7 @@ bounty: HackerOne · Bugcrowd · Intigriti · YesWeHack
 ```
 
 - 🛰️ &nbsp;Building and running **[NullCadre](https://nullcadre.com)**, used daily on authorised engagements and bug bounty targets
-- 🛡️ &nbsp;Building **[HuzoHunter AI](https://github.com/huzorobi/HuzoHunter-AI)**, the defensive counterpart, for organisations that can't ship telemetry to a cloud vendor
+- 🛡️ &nbsp;Building **[HuzoHunter AI](https://huzosecurity.com)**, the defensive counterpart, for organisations that can't ship telemetry to a cloud vendor
 - 📄 &nbsp;Read a **[full worked assessment](https://huzosecurity.com/sample)** with the evidence behind every finding
 - 🎓 &nbsp;BSc Cyber Security, Solent University (in progress) · NVIDIA Inception member
 - 💬 &nbsp;Ask me about **authorisation testing, LLM attack surfaces, and running AI models locally**
@@ -70,7 +70,7 @@ Live, and exercised daily against authorised targets and known-answer benchmarks
 flowchart LR
     T["🎯 Authorised<br/>target"] --> G{{"🚦 Scope gate<br/><code>scope.gate.validate()</code><br/><i>fail closed, in code</i>"}}
     G -->|"out of scope"| X["⛔ Refused<br/><i>no packet leaves</i>"]
-    G -->|"in scope"| D["🔬 Deterministic battery<br/>501 modules, exhaustive"]
+    G -->|"in scope"| D["🔬 Deterministic battery<br/>526 modules, exhaustive"]
     D --> E[("📊 Evidence<br/><i>graded, structured</i>")]
     E --> H["🧠 Hunter · local LLM<br/>observation → hypothesis<br/>→ probe → pivot"]
     H -->|"new leads"| G
@@ -101,7 +101,7 @@ baseline, never reduce it, and every lead it proposes goes back through the same
 **Numbers**
 
 - **Under 5% false-positive rate**, measured across several public vulnerable applications, a published authorisation-testing benchmark, and a fully patched self-hosted target where the correct answer is nothing found
-- **501** integrated scanner and tool modules · **156** Hunter actions · **8** report formats (HTML, PDF, Markdown, CSV, JSON, SARIF, OCSF, executive one-pager)
+- **526** integrated scanner and tool modules · **156** Hunter actions · **8** report formats (HTML, PDF, Markdown, CSV, JSON, SARIF, OCSF, executive one-pager)
 - Runs entirely on the operator's estate. No target data leaves the machine, including for report narration.
 
 <details>
@@ -134,9 +134,6 @@ The defensive counterpart to NullCadre. Explainable investigations, with sensiti
 
 `Local AI` · `Threat Hunting Automation` · `Explainable Investigations` · `M365 + Active Directory Integration`
 
-<a href="https://github.com/huzorobi/HuzoHunter-AI">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=huzorobi&repo=HuzoHunter-AI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF" alt="HuzoHunter AI" />
-</a>
 
 </div>
 
@@ -196,5 +193,5 @@ The defensive counterpart to NullCadre. Explainable investigations, with sensiti
 ---
 
 <div align="center">
-<sub><strong>Last updated 2026-10-04</strong> · Building <a href="https://nullcadre.com">NullCadre</a> 🛰️ &amp; <a href="https://github.com/huzorobi/HuzoHunter-AI">HuzoHunter AI</a> 🔐</sub>
+<sub><strong>Last updated 2026-10-04</strong> · Building <a href="https://nullcadre.com">NullCadre</a> 🛰️ &amp; <a href="https://huzosecurity.com">HuzoHunter AI</a> 🔐</sub>
 </div>
