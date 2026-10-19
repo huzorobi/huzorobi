@@ -39,7 +39,7 @@ also: HuzoHunter AI, a local-first defensive threat-hunting platform
 principle: The engine proves the facts. The AI reasons about them. The model never decides whether a bug exists.
 focus: Web and API testing · Authorisation (BOLA/IDOR/BFLA) · LLM application security · Security automation
 certs: CompTIA Security+ · CompTIA A+ · EC-Council CEH (5-day hands-on training)
-bounty: HackerOne · Bugcrowd · Intigriti · YesWeHack
+bounty: HackerOne · Bugcrowd · Intigriti · YesWeHack · WordFence
 ```
 
 - 🛰️ &nbsp;Building and running **[NullCadre](https://nullcadre.com)**, used daily on authorised engagements and bug bounty targets
