@@ -288,7 +288,9 @@ def build_layers(day, card_png, cap, meta):
     para = rich_paragraph(segs, F("WorkSans-Regular.ttf", 46), F("WorkSans-SemiBold.ttf", 46), TEXT_W, 62)
     L["body"] = Layer(para, LEFT, y + 34)
 
-    L["source"] = Layer(text_img("SOURCE: " + cap["source"].upper(), F("IBMPlexMono-Regular.ttf", 24), GREY), LEFT - 8, 1585)
+    # keep the source line clear of a long body
+    src_y = max(1585, L["body"].y + L["body"].h + 24)
+    L["source"] = Layer(text_img("SOURCE: " + cap["source"].upper(), F("IBMPlexMono-Regular.ttf", 24), GREY), LEFT - 8, src_y)
 
     # scene 2
     L["s2_head"] = Layer(text_img("WHAT TO DO THIS WEEK", F("IBMPlexMono-SemiBold.ttf", 38), RED), LEFT - 8, 640)
