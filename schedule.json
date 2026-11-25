@@ -1,362 +1,542 @@
 [
- {
-  "day": 1,
-  "date": "2026-09-28",
-  "file": "huzosecurity-fact-01.png",
-  "caption": "Broken access control is the number one risk on the OWASP Top 10.\n\nScanners rarely catch it. The server hands the wrong user's data back with a 200 OK, and nothing looks broken.\n\nWhat to do this week:\n1. Log in as two users. Can one open the other's records?\n2. Test every API endpoint, not just the pages.\n\nSource: OWASP Top 10:2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 2,
-  "date": "2026-09-29",
-  "file": "huzosecurity-fact-02.png",
-  "caption": "43% of UK businesses had a cyber breach or attack in the last 12 months.\n\nThis isn't just big corporates. Among small businesses the figure was 46%.\n\nWhat to do this week:\n1. Turn on MFA for email and admin accounts.\n2. Find out what you have exposed to the internet.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 3,
-  "date": "2026-09-30",
-  "file": "huzosecurity-fact-03.png",
-  "caption": "Phishing hit 38% of UK businesses in a single year.\n\nIt's still the most common attack by far. One convincing email is often the whole way in.\n\nWhat to do this week:\n1. Run a short phishing session with your staff.\n2. Make reporting a dodgy email quick and blame-free.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 4,
-  "date": "2026-10-01",
-  "file": "huzosecurity-fact-04.png",
-  "caption": "Ransomware is now present in 44% of breaches.\n\nAttacks rose 37% in a year. Backups you've actually tested to restore are worth more than any promise.\n\nWhat to do this week:\n1. Keep an offline backup and test a restore.\n2. Patch internet-facing systems first.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 5,
-  "date": "2026-10-02",
-  "file": "huzosecurity-fact-05.png",
-  "caption": "Only 25% of UK businesses have a formal incident response plan.\n\nIf you're breached tomorrow morning, who makes the first call? Decide that before you need to.\n\nWhat to do this week:\n1. Write a one-page plan: who does what, and when.\n2. Keep key contact numbers somewhere offline.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 6,
-  "date": "2026-10-03",
-  "file": "huzosecurity-fact-06.png",
-  "caption": "At small and medium businesses, ransomware was present in 88% of breaches.\n\nBeing small doesn't keep you off the list. It often puts you at the top of it.\n\nWhat to do this week:\n1. Test that your backups actually restore.\n2. Put MFA on every remote access route.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 7,
-  "date": "2026-10-04",
-  "file": "huzosecurity-fact-07.png",
-  "caption": "Under UK GDPR you have 72 hours to report a notifiable breach to the ICO.\n\nThe clock starts when you become aware of it. Know who does what before it starts ticking.\n\nWhat to do this week:\n1. Name who decides if a breach is reportable.\n2. Keep the ICO reporting steps in your plan.\n\nSource: ICO, Personal data breaches: a guide\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 8,
-  "date": "2026-10-05",
-  "file": "huzosecurity-fact-08.png",
-  "caption": "The global average cost of a data breach is US$4.44 million.\n\nA penetration test costs a small fraction of that and tells you where the holes are first.\n\nWhat to do this week:\n1. Know where your sensitive data lives.\n2. Test your defences before an attacker does.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 9,
-  "date": "2026-10-06",
-  "file": "huzosecurity-fact-09.png",
-  "caption": "Only 15% of UK businesses review the cyber risk from their immediate suppliers.\n\nYour data is only as safe as the weakest company that holds it.\n\nWhat to do this week:\n1. List every supplier with access to your data.\n2. Ask them how they protect it.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 10,
-  "date": "2026-10-07",
-  "file": "huzosecurity-fact-10.png",
-  "caption": "Breaches involving a third party doubled in a year, to 30%.\n\nEvery supplier with access to your systems is part of your attack surface.\n\nWhat to do this week:\n1. Remove supplier access nobody uses.\n2. Give suppliers only the access they need.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 11,
-  "date": "2026-10-08",
-  "file": "huzosecurity-fact-11.png",
-  "caption": "It takes 241 days to identify and contain a typical breach.\n\nThat's roughly eight months. Testing finds the gap before someone else spends that time inside it.\n\nWhat to do this week:\n1. Switch on logging and actually review it.\n2. Test whether an intruder would be noticed.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 12,
-  "date": "2026-10-09",
-  "file": "huzosecurity-fact-12.png",
-  "caption": "Exploited vulnerabilities were the way in for 20% of breaches.\n\nThat's up 34% in a year. Unpatched software is an open door with a sign on it.\n\nWhat to do this week:\n1. Patch internet-facing software first.\n2. Switch off systems you no longer use.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 13,
-  "date": "2026-10-10",
-  "file": "huzosecurity-fact-13.png",
-  "caption": "Cyber Essentials requires critical and high-risk updates within 14 days.\n\nFourteen days from the vendor's release. A monthly patch cycle can miss it.\n\nWhat to do this week:\n1. Turn on automatic updates wherever you can.\n2. Keep a list of what you run so nothing is missed.\n\nSource: NCSC, Cyber Essentials requirements for IT infrastructure\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 14,
-  "date": "2026-10-11",
-  "file": "huzosecurity-fact-14.png",
-  "caption": "Only 17% of UK businesses have heard of Cyber Essentials.\n\nIt's the government-backed baseline, built on five technical controls. Worth knowing about.\n\nWhat to do this week:\n1. Read the five Cyber Essentials controls.\n2. Check your business against each one.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 15,
-  "date": "2026-10-12",
-  "file": "huzosecurity-fact-15.png",
-  "caption": "Only 5% of UK businesses hold Cyber Essentials certification.\n\nUp from 3% a year earlier. Most still have no certified baseline to show a customer who asks.\n\nWhat to do this week:\n1. Try the free Cyber Essentials readiness tool.\n2. Get certified so customers can see a baseline.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 16,
-  "date": "2026-10-13",
-  "file": "huzosecurity-fact-16.png",
-  "caption": "Stolen or abused credentials were the way in for 22% of breaches.\n\nReused passwords still work far too often. Multi-factor authentication makes a stolen password far less useful.\n\nWhat to do this week:\n1. Turn on MFA everywhere it's offered.\n2. Use a password manager so nothing is reused.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 17,
-  "date": "2026-10-14",
-  "file": "huzosecurity-fact-17.png",
-  "caption": "The NCSC handled 204 nationally significant cyber incidents in a year.\n\nUp from 89 the year before. More than double.\n\nWhat to do this week:\n1. Sign up for the NCSC's free Early Warning service.\n2. Keep your incident plan up to date.\n\nSource: NCSC Annual Review 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 18,
-  "date": "2026-10-15",
-  "file": "huzosecurity-fact-18.png",
-  "caption": "47% of UK businesses have some form of cyber insurance.\n\nCover helps pay for the clean-up. It doesn't stop the breach happening.\n\nWhat to do this week:\n1. Read what your policy expects from you.\n2. Keep evidence of your security testing.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 19,
-  "date": "2026-10-16",
-  "file": "huzosecurity-fact-19.png",
-  "caption": "13% of organisations reported breaches of their AI models or applications.\n\nOf those, 97% had no proper AI access controls in place.\n\nWhat to do this week:\n1. Decide who can use which AI tools.\n2. Limit what data those tools can reach.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 20,
-  "date": "2026-10-17",
-  "file": "huzosecurity-fact-20.png",
-  "caption": "Only 31% of UK businesses have a board member responsible for cyber security.\n\nIn the rest, it's worth asking who actually owns it.\n\nWhat to do this week:\n1. Name one board member responsible for cyber.\n2. Put cyber risk on the board agenda.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 21,
-  "date": "2026-10-18",
-  "file": "huzosecurity-fact-21.png",
-  "caption": "The median ransom payment was US$115,000.\n\nAnd 64% of victims now refuse to pay, up from 50% two years earlier.\n\nWhat to do this week:\n1. Test your backups before you need them.\n2. Plan how you'd recover without paying.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 22,
-  "date": "2026-10-19",
-  "file": "huzosecurity-fact-22.png",
-  "caption": "65% of medium-sized UK businesses had a breach or attack in a year.\n\nMore staff and more systems mean more doors to check.\n\nWhat to do this week:\n1. Map every system and account you run.\n2. Remove accounts left by former staff.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 23,
-  "date": "2026-10-20",
-  "file": "huzosecurity-fact-23.png",
-  "caption": "If you take card payments, PCI DSS requires a penetration test at least every 12 months.\n\nAnd again after any significant change to your systems or applications.\n\nWhat to do this week:\n1. Book your next pen test before the year is up.\n2. Retest after any major change.\n\nSource: PCI DSS v4.0.1, Requirement 11.4\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 24,
-  "date": "2026-10-21",
-  "file": "huzosecurity-fact-24.png",
-  "caption": "63% of breached organisations had no AI governance policy, or were still writing one.\n\nAI tools went in faster than the rules around them.\n\nWhat to do this week:\n1. Write a short AI use policy.\n2. List the AI tools staff already use.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 25,
-  "date": "2026-10-22",
-  "file": "huzosecurity-fact-25.png",
-  "caption": "Only 6% of UK businesses look at risk across their wider supply chain.\n\nYour suppliers' suppliers can still reach your systems.\n\nWhat to do this week:\n1. Ask key suppliers who their suppliers are.\n2. Put security terms in your contracts.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 26,
-  "date": "2026-10-23",
-  "file": "huzosecurity-fact-26.png",
-  "caption": "The NCSC saw an almost 50% rise in highly significant incidents.\n\n18 in a year, and the third year running that the number went up.\n\nWhat to do this week:\n1. Keep offline copies of critical data.\n2. Rehearse your incident plan once a year.\n\nSource: NCSC Annual Review 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 27,
-  "date": "2026-10-24",
-  "file": "huzosecurity-fact-27.png",
-  "caption": "Heavy use of unapproved 'shadow AI' added about US$670,000 to breach costs.\n\nIf staff paste company data into tools nobody signed off, that data has left the building.\n\nWhat to do this week:\n1. Give staff an approved AI tool.\n2. Spell out what data never goes into AI.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 28,
-  "date": "2026-10-25",
-  "file": "huzosecurity-fact-28.png",
-  "caption": "28% of UK charities had a breach or attack in the last year.\n\nDonor records and payment details make charities a target too.\n\nWhat to do this week:\n1. Protect donor data with MFA and access controls.\n2. Train staff and volunteers on phishing.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 29,
-  "date": "2026-10-26",
-  "file": "huzosecurity-fact-29.png",
-  "caption": "UK GDPR fines can reach £17.5 million or 4% of global turnover, whichever is higher.\n\nThat's the ceiling. Better never to find out what yours would be.\n\nWhat to do this week:\n1. Know what personal data you hold, and why.\n2. Only keep what you actually need.\n\nSource: ICO, Data protection fining guidance\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 30,
-  "date": "2026-10-27",
-  "file": "huzosecurity-fact-30.png",
-  "caption": "Most cyber attacks are basic: a thief trying your front door to see if it's unlocked.\n\nThat's the NCSC's own description. Checking the locks is exactly what a penetration test does.\n\nWhat to do this week:\n1. Check the five basic controls are in place.\n2. Have someone test the locks for you.\n\nSource: NCSC, Cyber Essentials overview\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 31,
-  "date": "2026-10-29",
-  "file": "huzosecurity-fact-31.png",
-  "caption": "Exploited vulnerabilities are now the most common way into a breach, at 31%.\n\nStolen logins used to lead. Now attackers mostly walk in through software nobody patched.\n\nWhat to do this week:\n1. Patch internet-facing systems first.\n2. Find out what you expose to the internet.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 32,
-  "date": "2026-10-30",
-  "file": "huzosecurity-fact-32.png",
-  "caption": "Only 13% of UK businesses carry out penetration testing.\n\nMost firms never see their systems the way an attacker does. A test shows you the gaps before someone else finds them.\n\nWhat to do this week:\n1. Book a test of your website and logins.\n2. Fix what it finds, then retest.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 33,
-  "date": "2026-10-31",
-  "file": "huzosecurity-fact-33.png",
-  "caption": "Attackers typically spend 14 days inside a network before they're detected.\n\nThat's up from 11 days. Two weeks is plenty of time to find your data and your backups.\n\nWhat to do this week:\n1. Set alerts for new admin accounts and odd logins.\n2. Know who to call the moment something looks wrong.\n\nSource: Mandiant M-Trends 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 34,
-  "date": "2026-11-01",
-  "file": "huzosecurity-fact-34.png",
-  "caption": "The ICO fined Capita £14m after a cyber attack exposed the data of 6.6 million people.\n\nAn alert fired within 10 minutes, but the proper response took 58 hours. Systems holding millions of records were only tested when first commissioned.\n\nWhat to do this week:\n1. Retest after every major change, not just at launch.\n2. Make sure alerts reach someone who can act fast.\n\nSource: ICO, Capita penalty, October 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 35,
-  "date": "2026-11-02",
-  "file": "huzosecurity-fact-35.png",
-  "caption": "In 97% of ransomware attacks caused by stolen logins, the victim already had MFA in some form.\n\nHaving MFA isn't the same as having it everywhere. Attackers find the one account or system that skipped it.\n\nWhat to do this week:\n1. List every login that still works without MFA.\n2. Close those gaps, starting with email and remote access.\n\nSource: Sophos State of Ransomware 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 36,
-  "date": "2026-11-03",
-  "file": "huzosecurity-fact-36.png",
-  "caption": "Criminal attackers take an average of 29 minutes to move from first access to the rest of a network.\n\nThe fastest took 27 seconds. Nobody reacts that quickly unless the response is planned in advance.\n\nWhat to do this week:\n1. Keep admin accounts separate from everyday ones.\n2. Decide now who isolates a machine, and how.\n\nSource: CrowdStrike 2026 Global Threat Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 37,
-  "date": "2026-11-04",
-  "file": "huzosecurity-fact-37.png",
-  "caption": "Fewer than half of UK businesses (47%) use two-factor authentication on their networks or apps.\n\nThe rest are one stolen password away from trouble. It's one of the cheapest fixes there is.\n\nWhat to do this week:\n1. Turn on 2FA for email first.\n2. Then add it to banking, cloud and admin accounts.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 38,
-  "date": "2026-11-05",
-  "file": "huzosecurity-fact-38.png",
-  "caption": "62% of breaches involved a human element.\n\nA click, a mistake, a reused password. Clear habits and tight access settings cut this down fast.\n\nWhat to do this week:\n1. Give staff a quick, blame-free way to report mistakes.\n2. Don't let one person approve payments alone.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 39,
-  "date": "2026-11-06",
-  "file": "huzosecurity-fact-39.png",
-  "caption": "Malware sat undetected in South Staffordshire Water's systems for 20 months, the ICO found.\n\nIt began with one phishing email. The ICO fined the company £963,900 after 633,887 people's data ended up on the dark web.\n\nWhat to do this week:\n1. Replace software that no longer gets updates.\n2. Monitor all of your systems, not just a few.\n\nSource: ICO, South Staffordshire penalty, May 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 40,
-  "date": "2026-11-07",
-  "file": "huzosecurity-fact-40.png",
-  "caption": "Voice phishing was the way in for 11% of intrusions, now the second most common route.\n\nEmail phishing dropped to 6%. Attackers now ring your help desk and talk their way in.\n\nWhat to do this week:\n1. Verify callers on a number you already hold.\n2. Never reset a password or MFA on a phone request alone.\n\nSource: Mandiant M-Trends 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 41,
-  "date": "2026-11-08",
-  "file": "huzosecurity-fact-41.png",
-  "caption": "19% of UK businesses were victims of at least one cyber crime in the past year.\n\nThat's actual crime, not just attempts. For charities the figure was 14%.\n\nWhat to do this week:\n1. Keep a record of attacks so you can spot patterns.\n2. Write down who you'd call first if one got through.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 42,
-  "date": "2026-11-09",
-  "file": "huzosecurity-fact-42.png",
-  "caption": "Only 26% of critical vulnerabilities were fully fixed in 2025, down from 38%.\n\nKnown holes are staying open longer. Attackers count on exactly that.\n\nWhat to do this week:\n1. Keep a list of everything you run, with versions.\n2. Set a deadline for critical fixes and check it's met.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 43,
-  "date": "2026-11-10",
-  "file": "huzosecurity-fact-43.png",
-  "caption": "Organisations with Cyber Essentials make 80% fewer cyber insurance claims than those without it.\n\nThat's from insurers' 2022 claims data, comparing the same policy. Five basic controls stop most everyday attacks.\n\nWhat to do this week:\n1. Check your business against the five controls.\n2. Get certified once you pass.\n\nSource: Cyber Essentials Impact Evaluation, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 44,
-  "date": "2026-11-11",
-  "file": "huzosecurity-fact-44.png",
-  "caption": "The average cost to recover from a ransomware attack is US$1.7 million, not counting any ransom.\n\nThat's downtime, rebuilds and lost business. Finding the holes first costs far less.\n\nWhat to do this week:\n1. Work out what a week offline would cost you.\n2. Test that you can actually restore from backup.\n\nSource: Sophos State of Ransomware 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 45,
-  "date": "2026-11-12",
-  "file": "huzosecurity-fact-45.png",
-  "caption": "12% of UK businesses were hit by impersonation attacks in the last year.\n\nCriminals pose as your boss, your bank or your supplier. One convincing email can redirect a payment.\n\nWhat to do this week:\n1. Confirm changed bank details by phone, on a known number.\n2. Have two people sign off any new payee.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 46,
-  "date": "2026-11-13",
-  "file": "huzosecurity-fact-46.png",
-  "caption": "42% of vulnerabilities were exploited before they were publicly disclosed.\n\nYou can't patch a hole nobody has announced yet. Layered defences and testing catch what updates miss.\n\nWhat to do this week:\n1. Put MFA and limited access in front of key systems.\n2. Test how far an attacker could get from one foothold.\n\nSource: CrowdStrike 2026 Global Threat Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 47,
-  "date": "2026-11-14",
-  "file": "huzosecurity-fact-47.png",
-  "caption": "There were an estimated 798,000 incidents of computer misuse in England and Wales in the year to March 2026.\n\nThat's hacking and viruses hitting ordinary people. Your staff bring those habits to work.\n\nWhat to do this week:\n1. Encourage staff to use 2FA at home as well as work.\n2. Make it easy to report a suspicious message.\n\nSource: ONS Crime Survey for England and Wales, YE March 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 48,
-  "date": "2026-11-15",
-  "file": "huzosecurity-fact-48.png",
-  "caption": "79% of ransomware attacks started with stolen or abused logins.\n\nAttackers log in rather than break in. Protect the accounts and you protect everything behind them.\n\nWhat to do this week:\n1. Use a password manager so nothing is reused.\n2. Remove accounts nobody uses any more.\n\nSource: Sophos State of Ransomware 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 49,
-  "date": "2026-11-16",
-  "file": "huzosecurity-fact-49.png",
-  "caption": "44% of UK micro businesses now use an external cyber security provider, up from 39%.\n\nSmall firms are handing security to specialists. Make sure yours actually tests, not just installs.\n\nWhat to do this week:\n1. Ask your IT provider when you were last tested.\n2. Get the results in writing.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 50,
-  "date": "2026-11-17",
-  "file": "huzosecurity-fact-50.png",
-  "caption": "Criminals who break in now pass that access to a second group in 22 seconds.\n\nIn 2022 that handoff took more than 8 hours. There's no gap left to react in.\n\nWhat to do this week:\n1. Block the first step: MFA, patches, careful clicks.\n2. Rehearse what you'd do in the first hour.\n\nSource: Mandiant M-Trends 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 51,
-  "date": "2026-11-18",
-  "file": "huzosecurity-fact-51.png",
-  "caption": "45% of employees now regularly use AI on their work devices, approved or not, up from 15%.\n\nStaff are pasting work into tools you may not know about. Set the rules before the data leaks.\n\nWhat to do this week:\n1. Ask staff which AI tools they use.\n2. Say clearly what data never goes into them.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 52,
-  "date": "2026-11-19",
-  "file": "huzosecurity-fact-52.png",
-  "caption": "Only 32% of UK businesses use tools designed for security monitoring.\n\nWithout monitoring, nobody sees an intruder until the damage shows. Most firms are relying on luck.\n\nWhat to do this week:\n1. Switch on the security alerts your tools already have.\n2. Make sure someone actually reads them.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 53,
-  "date": "2026-11-20",
-  "file": "huzosecurity-fact-53.png",
-  "caption": "66% of organisations whose data was encrypted by ransomware recovered it from backups.\n\nThat's up from 54% a year earlier. Backups only save you if they're offline and tested.\n\nWhat to do this week:\n1. Keep one backup copy offline.\n2. Do a test restore this month.\n\nSource: Sophos State of Ransomware 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 54,
-  "date": "2026-11-21",
-  "file": "huzosecurity-fact-54.png",
-  "caption": "Only 17% of UK charities ran cyber security training, down from 21% the year before.\n\nStaff and volunteers handle donor data every day. A short session cuts phishing risk.\n\nWhat to do this week:\n1. Run a 20-minute phishing awareness session.\n2. Show everyone how to report a suspicious email.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 55,
-  "date": "2026-11-22",
-  "file": "huzosecurity-fact-55.png",
-  "caption": "AI-enabled attackers increased their operations by 89% in a year.\n\nAI writes better scams and scans faster. The basics matter more now, not less.\n\nWhat to do this week:\n1. Teach staff that a polished email can still be fake.\n2. Patch faster, because scanning is faster.\n\nSource: CrowdStrike 2026 Global Threat Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 56,
-  "date": "2026-11-23",
-  "file": "huzosecurity-fact-56.png",
-  "caption": "Ransomware was involved in 48% of breaches, up from 44% a year earlier.\n\nThat's nearly half. Being able to recover now matters as much as keeping attackers out.\n\nWhat to do this week:\n1. Write down the order you'd restore systems in.\n2. Store that plan where ransomware can't reach it.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 57,
-  "date": "2026-11-24",
-  "file": "huzosecurity-fact-57.png",
-  "caption": "There were an estimated 4.5 million fraud incidents in England and Wales in the year to March 2026.\n\nThe number of victims rose 10% to 3.8 million. Many scams start with a hacked or spoofed email.\n\nWhat to do this week:\n1. Check sender addresses, not just display names.\n2. Set up email authentication for your domain.\n\nSource: ONS Crime Survey for England and Wales, YE March 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 58,
-  "date": "2026-11-25",
-  "file": "huzosecurity-fact-58.png",
-  "caption": "Organisations found the attack themselves in 52% of cases, up from 43%.\n\nThe rest found out from someone else. Monitoring and testing put you in the first group.\n\nWhat to do this week:\n1. Know what normal looks like on your network.\n2. Test whether your alerts would catch a real intruder.\n\nSource: Mandiant M-Trends 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 59,
-  "date": "2026-11-26",
-  "file": "huzosecurity-fact-59.png",
-  "caption": "Only one in ten UK charities (10%) have carried out a cyber security vulnerability audit.\n\nCharities hold donor, payment and volunteer data. An audit shows where it's exposed.\n\nWhat to do this week:\n1. List the systems that hold donor and payment data.\n2. Have them checked for weaknesses.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- },
- {
-  "day": 60,
-  "date": "2026-11-27",
-  "file": "huzosecurity-fact-60.png",
-  "caption": "56% of ransomware attacks succeeded in encrypting the victim's data.\n\nIn 16% of cases the data was stolen as well. Stopping the attack early is what saves the files.\n\nWhat to do this week:\n1. Make sure your security software can't be switched off by an attacker.\n2. Practise isolating an infected machine quickly.\n\nSource: Sophos State of Ransomware 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
- }
+  {
+    "day": 1,
+    "date": "2026-09-28",
+    "file": "huzosecurity-fact-01.png",
+    "caption": "Broken access control is the number one risk on the OWASP Top 10.\n\nScanners rarely catch it. The server hands the wrong user's data back with a 200 OK, and nothing looks broken.\n\nWhat to do this week:\n1. Log in as two users. Can one open the other's records?\n2. Test every API endpoint, not just the pages.\n\nSource: OWASP Top 10:2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 2,
+    "date": "2026-09-29",
+    "file": "huzosecurity-fact-02.png",
+    "caption": "43% of UK businesses had a cyber breach or attack in the last 12 months.\n\nThis isn't just big corporates. Among small businesses the figure was 46%.\n\nWhat to do this week:\n1. Turn on MFA for email and admin accounts.\n2. Find out what you have exposed to the internet.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 3,
+    "date": "2026-09-30",
+    "file": "huzosecurity-fact-03.png",
+    "caption": "Phishing hit 38% of UK businesses in a single year.\n\nIt's still the most common attack by far. One convincing email is often the whole way in.\n\nWhat to do this week:\n1. Run a short phishing session with your staff.\n2. Make reporting a dodgy email quick and blame-free.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 4,
+    "date": "2026-10-01",
+    "file": "huzosecurity-fact-04.png",
+    "caption": "Ransomware is now present in 44% of breaches.\n\nAttacks rose 37% in a year. Backups you've actually tested to restore are worth more than any promise.\n\nWhat to do this week:\n1. Keep an offline backup and test a restore.\n2. Patch internet-facing systems first.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 5,
+    "date": "2026-10-02",
+    "file": "huzosecurity-fact-05.png",
+    "caption": "Only 25% of UK businesses have a formal incident response plan.\n\nIf you're breached tomorrow morning, who makes the first call? Decide that before you need to.\n\nWhat to do this week:\n1. Write a one-page plan: who does what, and when.\n2. Keep key contact numbers somewhere offline.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 6,
+    "date": "2026-10-03",
+    "file": "huzosecurity-fact-06.png",
+    "caption": "At small and medium businesses, ransomware was present in 88% of breaches.\n\nBeing small doesn't keep you off the list. It often puts you at the top of it.\n\nWhat to do this week:\n1. Test that your backups actually restore.\n2. Put MFA on every remote access route.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 7,
+    "date": "2026-10-04",
+    "file": "huzosecurity-fact-07.png",
+    "caption": "Under UK GDPR you have 72 hours to report a notifiable breach to the ICO.\n\nThe clock starts when you become aware of it. Know who does what before it starts ticking.\n\nWhat to do this week:\n1. Name who decides if a breach is reportable.\n2. Keep the ICO reporting steps in your plan.\n\nSource: ICO, Personal data breaches: a guide\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 8,
+    "date": "2026-10-05",
+    "file": "huzosecurity-fact-08.png",
+    "caption": "The global average cost of a data breach is US$4.44 million.\n\nA penetration test costs a small fraction of that and tells you where the holes are first.\n\nWhat to do this week:\n1. Know where your sensitive data lives.\n2. Test your defences before an attacker does.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 9,
+    "date": "2026-10-06",
+    "file": "huzosecurity-fact-09.png",
+    "caption": "Only 15% of UK businesses review the cyber risk from their immediate suppliers.\n\nYour data is only as safe as the weakest company that holds it.\n\nWhat to do this week:\n1. List every supplier with access to your data.\n2. Ask them how they protect it.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 10,
+    "date": "2026-10-07",
+    "file": "huzosecurity-fact-10.png",
+    "caption": "Breaches involving a third party doubled in a year, to 30%.\n\nEvery supplier with access to your systems is part of your attack surface.\n\nWhat to do this week:\n1. Remove supplier access nobody uses.\n2. Give suppliers only the access they need.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 11,
+    "date": "2026-10-08",
+    "file": "huzosecurity-fact-11.png",
+    "caption": "It takes 241 days to identify and contain a typical breach.\n\nThat's roughly eight months. Testing finds the gap before someone else spends that time inside it.\n\nWhat to do this week:\n1. Switch on logging and actually review it.\n2. Test whether an intruder would be noticed.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 12,
+    "date": "2026-10-09",
+    "file": "huzosecurity-fact-12.png",
+    "caption": "Exploited vulnerabilities were the way in for 20% of breaches.\n\nThat's up 34% in a year. Unpatched software is an open door with a sign on it.\n\nWhat to do this week:\n1. Patch internet-facing software first.\n2. Switch off systems you no longer use.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 13,
+    "date": "2026-10-10",
+    "file": "huzosecurity-fact-13.png",
+    "caption": "Cyber Essentials requires critical and high-risk updates within 14 days.\n\nFourteen days from the vendor's release. A monthly patch cycle can miss it.\n\nWhat to do this week:\n1. Turn on automatic updates wherever you can.\n2. Keep a list of what you run so nothing is missed.\n\nSource: NCSC, Cyber Essentials requirements for IT infrastructure\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 14,
+    "date": "2026-10-11",
+    "file": "huzosecurity-fact-14.png",
+    "caption": "Only 17% of UK businesses have heard of Cyber Essentials.\n\nIt's the government-backed baseline, built on five technical controls. Worth knowing about.\n\nWhat to do this week:\n1. Read the five Cyber Essentials controls.\n2. Check your business against each one.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 15,
+    "date": "2026-10-12",
+    "file": "huzosecurity-fact-15.png",
+    "caption": "Only 5% of UK businesses hold Cyber Essentials certification.\n\nUp from 3% a year earlier. Most still have no certified baseline to show a customer who asks.\n\nWhat to do this week:\n1. Try the free Cyber Essentials readiness tool.\n2. Get certified so customers can see a baseline.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 16,
+    "date": "2026-10-13",
+    "file": "huzosecurity-fact-16.png",
+    "caption": "Stolen or abused credentials were the way in for 22% of breaches.\n\nReused passwords still work far too often. Multi-factor authentication makes a stolen password far less useful.\n\nWhat to do this week:\n1. Turn on MFA everywhere it's offered.\n2. Use a password manager so nothing is reused.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 17,
+    "date": "2026-10-14",
+    "file": "huzosecurity-fact-17.png",
+    "caption": "The NCSC handled 204 nationally significant cyber incidents in a year.\n\nUp from 89 the year before. More than double.\n\nWhat to do this week:\n1. Sign up for the NCSC's free Early Warning service.\n2. Keep your incident plan up to date.\n\nSource: NCSC Annual Review 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 18,
+    "date": "2026-10-15",
+    "file": "huzosecurity-fact-18.png",
+    "caption": "47% of UK businesses have some form of cyber insurance.\n\nCover helps pay for the clean-up. It doesn't stop the breach happening.\n\nWhat to do this week:\n1. Read what your policy expects from you.\n2. Keep evidence of your security testing.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 19,
+    "date": "2026-10-16",
+    "file": "huzosecurity-fact-19.png",
+    "caption": "13% of organisations reported breaches of their AI models or applications.\n\nOf those, 97% had no proper AI access controls in place.\n\nWhat to do this week:\n1. Decide who can use which AI tools.\n2. Limit what data those tools can reach.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 20,
+    "date": "2026-10-17",
+    "file": "huzosecurity-fact-20.png",
+    "caption": "Only 31% of UK businesses have a board member responsible for cyber security.\n\nIn the rest, it's worth asking who actually owns it.\n\nWhat to do this week:\n1. Name one board member responsible for cyber.\n2. Put cyber risk on the board agenda.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 21,
+    "date": "2026-10-18",
+    "file": "huzosecurity-fact-21.png",
+    "caption": "The median ransom payment was US$115,000.\n\nAnd 64% of victims now refuse to pay, up from 50% two years earlier.\n\nWhat to do this week:\n1. Test your backups before you need them.\n2. Plan how you'd recover without paying.\n\nSource: Verizon Data Breach Investigations Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 22,
+    "date": "2026-10-19",
+    "file": "huzosecurity-fact-22.png",
+    "caption": "65% of medium-sized UK businesses had a breach or attack in a year.\n\nMore staff and more systems mean more doors to check.\n\nWhat to do this week:\n1. Map every system and account you run.\n2. Remove accounts left by former staff.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 23,
+    "date": "2026-10-20",
+    "file": "huzosecurity-fact-23.png",
+    "caption": "If you take card payments, PCI DSS requires a penetration test at least every 12 months.\n\nAnd again after any significant change to your systems or applications.\n\nWhat to do this week:\n1. Book your next pen test before the year is up.\n2. Retest after any major change.\n\nSource: PCI DSS v4.0.1, Requirement 11.4\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 24,
+    "date": "2026-10-21",
+    "file": "huzosecurity-fact-24.png",
+    "caption": "63% of breached organisations had no AI governance policy, or were still writing one.\n\nAI tools went in faster than the rules around them.\n\nWhat to do this week:\n1. Write a short AI use policy.\n2. List the AI tools staff already use.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 25,
+    "date": "2026-10-22",
+    "file": "huzosecurity-fact-25.png",
+    "caption": "Only 6% of UK businesses look at risk across their wider supply chain.\n\nYour suppliers' suppliers can still reach your systems.\n\nWhat to do this week:\n1. Ask key suppliers who their suppliers are.\n2. Put security terms in your contracts.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 26,
+    "date": "2026-10-23",
+    "file": "huzosecurity-fact-26.png",
+    "caption": "The NCSC saw an almost 50% rise in highly significant incidents.\n\n18 in a year, and the third year running that the number went up.\n\nWhat to do this week:\n1. Keep offline copies of critical data.\n2. Rehearse your incident plan once a year.\n\nSource: NCSC Annual Review 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 27,
+    "date": "2026-10-24",
+    "file": "huzosecurity-fact-27.png",
+    "caption": "Heavy use of unapproved 'shadow AI' added about US$670,000 to breach costs.\n\nIf staff paste company data into tools nobody signed off, that data has left the building.\n\nWhat to do this week:\n1. Give staff an approved AI tool.\n2. Spell out what data never goes into AI.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 28,
+    "date": "2026-10-25",
+    "file": "huzosecurity-fact-28.png",
+    "caption": "28% of UK charities had a breach or attack in the last year.\n\nDonor records and payment details make charities a target too.\n\nWhat to do this week:\n1. Protect donor data with MFA and access controls.\n2. Train staff and volunteers on phishing.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 29,
+    "date": "2026-10-26",
+    "file": "huzosecurity-fact-29.png",
+    "caption": "UK GDPR fines can reach £17.5 million or 4% of global turnover, whichever is higher.\n\nThat's the ceiling. Better never to find out what yours would be.\n\nWhat to do this week:\n1. Know what personal data you hold, and why.\n2. Only keep what you actually need.\n\nSource: ICO, Data protection fining guidance\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 30,
+    "date": "2026-10-27",
+    "file": "huzosecurity-fact-30.png",
+    "caption": "Most cyber attacks are basic: a thief trying your front door to see if it's unlocked.\n\nThat's the NCSC's own description. Checking the locks is exactly what a penetration test does.\n\nWhat to do this week:\n1. Check the five basic controls are in place.\n2. Have someone test the locks for you.\n\nSource: NCSC, Cyber Essentials overview\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 31,
+    "date": "2026-10-29",
+    "file": "huzosecurity-fact-31.png",
+    "caption": "Exploited vulnerabilities are now the most common way into a breach, at 31%.\n\nStolen logins used to lead. Now attackers mostly walk in through software nobody patched.\n\nWhat to do this week:\n1. Patch internet-facing systems first.\n2. Find out what you expose to the internet.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 32,
+    "date": "2026-10-30",
+    "file": "huzosecurity-fact-32.png",
+    "caption": "Only 13% of UK businesses carry out penetration testing.\n\nMost firms never see their systems the way an attacker does. A test shows you the gaps before someone else finds them.\n\nWhat to do this week:\n1. Book a test of your website and logins.\n2. Fix what it finds, then retest.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 33,
+    "date": "2026-10-31",
+    "file": "huzosecurity-fact-33.png",
+    "caption": "Attackers typically spend 14 days inside a network before they're detected.\n\nThat's up from 11 days. Two weeks is plenty of time to find your data and your backups.\n\nWhat to do this week:\n1. Set alerts for new admin accounts and odd logins.\n2. Know who to call the moment something looks wrong.\n\nSource: Mandiant M-Trends 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 34,
+    "date": "2026-11-01",
+    "file": "huzosecurity-fact-34.png",
+    "caption": "The ICO fined Capita £14m after a cyber attack exposed the data of 6.6 million people.\n\nAn alert fired within 10 minutes, but the proper response took 58 hours. Systems holding millions of records were only tested when first commissioned.\n\nWhat to do this week:\n1. Retest after every major change, not just at launch.\n2. Make sure alerts reach someone who can act fast.\n\nSource: ICO, Capita penalty, October 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 35,
+    "date": "2026-11-02",
+    "file": "huzosecurity-fact-35.png",
+    "caption": "In 97% of ransomware attacks caused by stolen logins, the victim already had MFA in some form.\n\nHaving MFA isn't the same as having it everywhere. Attackers find the one account or system that skipped it.\n\nWhat to do this week:\n1. List every login that still works without MFA.\n2. Close those gaps, starting with email and remote access.\n\nSource: Sophos State of Ransomware 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 36,
+    "date": "2026-11-03",
+    "file": "huzosecurity-fact-36.png",
+    "caption": "Criminal attackers take an average of 29 minutes to move from first access to the rest of a network.\n\nThe fastest took 27 seconds. Nobody reacts that quickly unless the response is planned in advance.\n\nWhat to do this week:\n1. Keep admin accounts separate from everyday ones.\n2. Decide now who isolates a machine, and how.\n\nSource: CrowdStrike 2026 Global Threat Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 37,
+    "date": "2026-11-04",
+    "file": "huzosecurity-fact-37.png",
+    "caption": "Fewer than half of UK businesses (47%) use two-factor authentication on their networks or apps.\n\nThe rest are one stolen password away from trouble. It's one of the cheapest fixes there is.\n\nWhat to do this week:\n1. Turn on 2FA for email first.\n2. Then add it to banking, cloud and admin accounts.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 38,
+    "date": "2026-11-05",
+    "file": "huzosecurity-fact-38.png",
+    "caption": "62% of breaches involved a human element.\n\nA click, a mistake, a reused password. Clear habits and tight access settings cut this down fast.\n\nWhat to do this week:\n1. Give staff a quick, blame-free way to report mistakes.\n2. Don't let one person approve payments alone.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 39,
+    "date": "2026-11-06",
+    "file": "huzosecurity-fact-39.png",
+    "caption": "Malware sat undetected in South Staffordshire Water's systems for 20 months, the ICO found.\n\nIt began with one phishing email. The ICO fined the company £963,900 after 633,887 people's data ended up on the dark web.\n\nWhat to do this week:\n1. Replace software that no longer gets updates.\n2. Monitor all of your systems, not just a few.\n\nSource: ICO, South Staffordshire penalty, May 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 40,
+    "date": "2026-11-07",
+    "file": "huzosecurity-fact-40.png",
+    "caption": "Voice phishing was the way in for 11% of intrusions, now the second most common route.\n\nEmail phishing dropped to 6%. Attackers now ring your help desk and talk their way in.\n\nWhat to do this week:\n1. Verify callers on a number you already hold.\n2. Never reset a password or MFA on a phone request alone.\n\nSource: Mandiant M-Trends 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 41,
+    "date": "2026-11-08",
+    "file": "huzosecurity-fact-41.png",
+    "caption": "19% of UK businesses were victims of at least one cyber crime in the past year.\n\nThat's actual crime, not just attempts. For charities the figure was 14%.\n\nWhat to do this week:\n1. Keep a record of attacks so you can spot patterns.\n2. Write down who you'd call first if one got through.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 42,
+    "date": "2026-11-09",
+    "file": "huzosecurity-fact-42.png",
+    "caption": "Only 26% of critical vulnerabilities were fully fixed in 2025, down from 38%.\n\nKnown holes are staying open longer. Attackers count on exactly that.\n\nWhat to do this week:\n1. Keep a list of everything you run, with versions.\n2. Set a deadline for critical fixes and check it's met.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 43,
+    "date": "2026-11-10",
+    "file": "huzosecurity-fact-43.png",
+    "caption": "Organisations with Cyber Essentials make 80% fewer cyber insurance claims than those without it.\n\nThat's from insurers' 2022 claims data, comparing the same policy. Five basic controls stop most everyday attacks.\n\nWhat to do this week:\n1. Check your business against the five controls.\n2. Get certified once you pass.\n\nSource: Cyber Essentials Impact Evaluation, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 44,
+    "date": "2026-11-11",
+    "file": "huzosecurity-fact-44.png",
+    "caption": "The average cost to recover from a ransomware attack is US$1.7 million, not counting any ransom.\n\nThat's downtime, rebuilds and lost business. Finding the holes first costs far less.\n\nWhat to do this week:\n1. Work out what a week offline would cost you.\n2. Test that you can actually restore from backup.\n\nSource: Sophos State of Ransomware 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 45,
+    "date": "2026-11-12",
+    "file": "huzosecurity-fact-45.png",
+    "caption": "12% of UK businesses were hit by impersonation attacks in the last year.\n\nCriminals pose as your boss, your bank or your supplier. One convincing email can redirect a payment.\n\nWhat to do this week:\n1. Confirm changed bank details by phone, on a known number.\n2. Have two people sign off any new payee.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 46,
+    "date": "2026-11-13",
+    "file": "huzosecurity-fact-46.png",
+    "caption": "42% of vulnerabilities were exploited before they were publicly disclosed.\n\nYou can't patch a hole nobody has announced yet. Layered defences and testing catch what updates miss.\n\nWhat to do this week:\n1. Put MFA and limited access in front of key systems.\n2. Test how far an attacker could get from one foothold.\n\nSource: CrowdStrike 2026 Global Threat Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 47,
+    "date": "2026-11-14",
+    "file": "huzosecurity-fact-47.png",
+    "caption": "There were an estimated 798,000 incidents of computer misuse in England and Wales in the year to March 2026.\n\nThat's hacking and viruses hitting ordinary people. Your staff bring those habits to work.\n\nWhat to do this week:\n1. Encourage staff to use 2FA at home as well as work.\n2. Make it easy to report a suspicious message.\n\nSource: ONS Crime Survey for England and Wales, YE March 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 48,
+    "date": "2026-11-15",
+    "file": "huzosecurity-fact-48.png",
+    "caption": "79% of ransomware attacks started with stolen or abused logins.\n\nAttackers log in rather than break in. Protect the accounts and you protect everything behind them.\n\nWhat to do this week:\n1. Use a password manager so nothing is reused.\n2. Remove accounts nobody uses any more.\n\nSource: Sophos State of Ransomware 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 49,
+    "date": "2026-11-16",
+    "file": "huzosecurity-fact-49.png",
+    "caption": "44% of UK micro businesses now use an external cyber security provider, up from 39%.\n\nSmall firms are handing security to specialists. Make sure yours actually tests, not just installs.\n\nWhat to do this week:\n1. Ask your IT provider when you were last tested.\n2. Get the results in writing.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 50,
+    "date": "2026-11-17",
+    "file": "huzosecurity-fact-50.png",
+    "caption": "Criminals who break in now pass that access to a second group in 22 seconds.\n\nIn 2022 that handoff took more than 8 hours. There's no gap left to react in.\n\nWhat to do this week:\n1. Block the first step: MFA, patches, careful clicks.\n2. Rehearse what you'd do in the first hour.\n\nSource: Mandiant M-Trends 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 51,
+    "date": "2026-11-18",
+    "file": "huzosecurity-fact-51.png",
+    "caption": "45% of employees now regularly use AI on their work devices, approved or not, up from 15%.\n\nStaff are pasting work into tools you may not know about. Set the rules before the data leaks.\n\nWhat to do this week:\n1. Ask staff which AI tools they use.\n2. Say clearly what data never goes into them.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 52,
+    "date": "2026-11-19",
+    "file": "huzosecurity-fact-52.png",
+    "caption": "Only 32% of UK businesses use tools designed for security monitoring.\n\nWithout monitoring, nobody sees an intruder until the damage shows. Most firms are relying on luck.\n\nWhat to do this week:\n1. Switch on the security alerts your tools already have.\n2. Make sure someone actually reads them.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 53,
+    "date": "2026-11-20",
+    "file": "huzosecurity-fact-53.png",
+    "caption": "66% of organisations whose data was encrypted by ransomware recovered it from backups.\n\nThat's up from 54% a year earlier. Backups only save you if they're offline and tested.\n\nWhat to do this week:\n1. Keep one backup copy offline.\n2. Do a test restore this month.\n\nSource: Sophos State of Ransomware 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 54,
+    "date": "2026-11-21",
+    "file": "huzosecurity-fact-54.png",
+    "caption": "Only 17% of UK charities ran cyber security training, down from 21% the year before.\n\nStaff and volunteers handle donor data every day. A short session cuts phishing risk.\n\nWhat to do this week:\n1. Run a 20-minute phishing awareness session.\n2. Show everyone how to report a suspicious email.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 55,
+    "date": "2026-11-22",
+    "file": "huzosecurity-fact-55.png",
+    "caption": "AI-enabled attackers increased their operations by 89% in a year.\n\nAI writes better scams and scans faster. The basics matter more now, not less.\n\nWhat to do this week:\n1. Teach staff that a polished email can still be fake.\n2. Patch faster, because scanning is faster.\n\nSource: CrowdStrike 2026 Global Threat Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 56,
+    "date": "2026-11-23",
+    "file": "huzosecurity-fact-56.png",
+    "caption": "Ransomware was involved in 48% of breaches, up from 44% a year earlier.\n\nThat's nearly half. Being able to recover now matters as much as keeping attackers out.\n\nWhat to do this week:\n1. Write down the order you'd restore systems in.\n2. Store that plan where ransomware can't reach it.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 57,
+    "date": "2026-11-24",
+    "file": "huzosecurity-fact-57.png",
+    "caption": "There were an estimated 4.5 million fraud incidents in England and Wales in the year to March 2026.\n\nThe number of victims rose 10% to 3.8 million. Many scams start with a hacked or spoofed email.\n\nWhat to do this week:\n1. Check sender addresses, not just display names.\n2. Set up email authentication for your domain.\n\nSource: ONS Crime Survey for England and Wales, YE March 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 58,
+    "date": "2026-11-25",
+    "file": "huzosecurity-fact-58.png",
+    "caption": "Organisations found the attack themselves in 52% of cases, up from 43%.\n\nThe rest found out from someone else. Monitoring and testing put you in the first group.\n\nWhat to do this week:\n1. Know what normal looks like on your network.\n2. Test whether your alerts would catch a real intruder.\n\nSource: Mandiant M-Trends 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 59,
+    "date": "2026-11-26",
+    "file": "huzosecurity-fact-59.png",
+    "caption": "Only one in ten UK charities (10%) have carried out a cyber security vulnerability audit.\n\nCharities hold donor, payment and volunteer data. An audit shows where it's exposed.\n\nWhat to do this week:\n1. List the systems that hold donor and payment data.\n2. Have them checked for weaknesses.\n\nSource: Cyber Security Breaches Survey 2025/26, GOV.UK\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 60,
+    "date": "2026-11-27",
+    "file": "huzosecurity-fact-60.png",
+    "caption": "56% of ransomware attacks succeeded in encrypting the victim's data.\n\nIn 16% of cases the data was stolen as well. Stopping the attack early is what saves the files.\n\nWhat to do this week:\n1. Make sure your security software can't be switched off by an attacker.\n2. Practise isolating an infected machine quickly.\n\nSource: Sophos State of Ransomware 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 61,
+    "date": "2026-11-28",
+    "file": "huzosecurity-fact-61.png",
+    "caption": "99% of API attack attempts came from users who were already logged in.\n\nA login doesn't prove someone should see that record. Every request needs its own ownership check.\n\nWhat to do this week:\n1. Log in as two test users and open each other's records.\n2. Test every endpoint that takes an ID.\n\nSource: Salt Security, 1H 2026 State of AI and API Security\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 62,
+    "date": "2026-11-29",
+    "file": "huzosecurity-fact-62.png",
+    "caption": "46% of WordPress vulnerabilities had no fix from the developer when they went public.\n\nUpdating only works when there's an update. Sometimes the only fix is removing the plugin.\n\nWhat to do this week:\n1. Delete every plugin you don't use.\n2. Check your plugins against a vulnerability database monthly.\n\nSource: Patchstack, State of WordPress Security in 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 63,
+    "date": "2026-11-30",
+    "file": "huzosecurity-fact-63.png",
+    "caption": "97% of organisations breached through their AI systems lacked proper AI access controls.\n\nYour chatbot sees whatever its account can see. If that is every customer, so can anyone who asks it.\n\nWhat to do this week:\n1. Check what data your AI tools can actually reach.\n2. Give them the access you'd give a new starter.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 64,
+    "date": "2026-12-01",
+    "file": "huzosecurity-fact-64.png",
+    "caption": "91% of new WordPress vulnerabilities in 2025 were in plugins.\n\nWordPress itself had only six, all low priority. The risk is what you've bolted on.\n\nWhat to do this week:\n1. Remove plugins that haven't been updated in a year.\n2. Limit plugin installs to one or two admins.\n\nSource: Patchstack, State of WordPress Security in 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 65,
+    "date": "2026-12-02",
+    "file": "huzosecurity-fact-65.png",
+    "caption": "64% of leaked API keys and passwords confirmed valid in 2022 still worked four years later.\n\nDeleting the file doesn't kill the key. Until you rotate it, whoever copied it can still use it.\n\nWhat to do this week:\n1. Search your code repos for keys and passwords.\n2. Rotate any key that was ever committed, even once.\n\nSource: GitGuardian, State of Secrets Sprawl 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 66,
+    "date": "2026-12-03",
+    "file": "huzosecurity-fact-66.png",
+    "caption": "Less than half (48%) of penetration test findings ever get fixed.\n\nA report nobody acts on is just an expensive PDF. The fix is the part that protects you.\n\nWhat to do this week:\n1. Give every finding an owner and a due date.\n2. Retest after the fix to prove it worked.\n\nSource: Cobalt, State of Pentesting Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 67,
+    "date": "2026-12-04",
+    "file": "huzosecurity-fact-67.png",
+    "caption": "Only 21% of serious flaws found in AI and LLM app pentests get fixed.\n\nAI features ship fast. The fixes don't. A chatbot leak is still a data breach.\n\nWhat to do this week:\n1. Test your chatbot as a normal user, not an admin.\n2. Fix serious AI findings before the next release.\n\nSource: Cobalt, State of Pentesting Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 68,
+    "date": "2026-12-05",
+    "file": "huzosecurity-fact-68.png",
+    "caption": "76% of vulnerabilities found in premium WordPress plugins and themes were exploitable in real attacks.\n\nPaying for a plugin doesn't mean it's been tested. Fewer eyes on the code means flaws last longer.\n\nWhat to do this week:\n1. List every paid plugin and theme on your site.\n2. Check each one against a vulnerability database.\n\nSource: Patchstack, State of WordPress Security in 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 69,
+    "date": "2026-12-06",
+    "file": "huzosecurity-fact-69.png",
+    "caption": "44% of advanced bot traffic targeted APIs, against only 10% aimed at web apps.\n\nBots skip your website and talk straight to your API. That's where the data and the business logic live.\n\nWhat to do this week:\n1. Add rate limits to login, search and checkout APIs.\n2. Check your API rejects requests your app never makes.\n\nSource: Imperva Bad Bot Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 70,
+    "date": "2026-12-07",
+    "file": "huzosecurity-fact-70.png",
+    "caption": "AI-generated code passed security tests only 56% of the time.\n\nAI writes code that works. Working isn't the same as safe. Nearly half still failed security tests.\n\nWhat to do this week:\n1. Review AI-written code like a junior dev's work.\n2. Run a security scan before anything ships.\n\nSource: Veracode, 2026 GenAI Code Security Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 71,
+    "date": "2026-12-08",
+    "file": "huzosecurity-fact-71.png",
+    "caption": "81% of security leaders said they were confident, while 31% of serious findings were still unfixed.\n\nConfidence isn't evidence. Open findings are what attackers actually use.\n\nWhat to do this week:\n1. Count how many serious findings are still open.\n2. Ask who owns each one and when it closes.\n\nSource: Cobalt, State of Pentesting Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 72,
+    "date": "2026-12-09",
+    "file": "huzosecurity-fact-72.png",
+    "caption": "Traditional hosting defences blocked only 12% of attacks on WordPress-specific vulnerabilities.\n\nA generic firewall doesn't know your plugins. Most plugin attacks walked straight through.\n\nWhat to do this week:\n1. Ask your host what stops plugin-level attacks.\n2. Add a WordPress-aware firewall or patching service.\n\nSource: Patchstack, State of WordPress Security in 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 73,
+    "date": "2026-12-10",
+    "file": "huzosecurity-fact-73.png",
+    "caption": "87% of commercial codebases audited had at least one open source vulnerability.\n\nMost of your app is code you didn't write. Its bugs are still your problem.\n\nWhat to do this week:\n1. Ask your developers for a list of every library used.\n2. Update the ones with known vulnerabilities first.\n\nSource: Black Duck, 2026 OSSRA Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 74,
+    "date": "2026-12-11",
+    "file": "huzosecurity-fact-74.png",
+    "caption": "67% of people using AI on work devices did it through personal, non-work accounts.\n\nPersonal accounts sit outside your controls. Whatever gets pasted in, you can't see or delete.\n\nWhat to do this week:\n1. Give staff an approved AI tool with a work login.\n2. Write a one-page rule on what can't be pasted in.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 75,
+    "date": "2026-12-12",
+    "file": "huzosecurity-fact-75.png",
+    "caption": "Fewer than one in four organisations (24%) have a fully automated API inventory.\n\nYou can't protect an endpoint you don't know exists. Old, forgotten APIs are the ones that leak.\n\nWhat to do this week:\n1. List every API your apps and partners call.\n2. Switch off any you can't name an owner for.\n\nSource: Salt Security, 1H 2026 State of AI and API Security\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 76,
+    "date": "2026-12-13",
+    "file": "huzosecurity-fact-76.png",
+    "caption": "More than 33% of the vulnerabilities found across the full stack were critical or high severity.\n\nThese aren't cosmetic issues. One in three is serious enough to fix this month.\n\nWhat to do this week:\n1. Sort your open findings by severity, not age.\n2. Fix criticals in days, not quarters.\n\nSource: Edgescan, 2025 Vulnerability Statistics Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 77,
+    "date": "2026-12-14",
+    "file": "huzosecurity-fact-77.png",
+    "caption": "85% of the time, AI-generated code failed to protect against cross-site scripting.\n\nXSS is one of the oldest bugs on the web. AI still writes it in by default.\n\nWhat to do this week:\n1. Escape all user input before it reaches a page.\n2. Add a Content Security Policy header.\n\nSource: Veracode, 2026 GenAI Code Security Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 78,
+    "date": "2026-12-15",
+    "file": "huzosecurity-fact-78.png",
+    "caption": "60% of AI-related security incidents led to compromised data.\n\nAn AI tool with broad access is a shortcut to your data. For attackers as well as staff.\n\nWhat to do this week:\n1. Remove AI tools' access to data they don't need.\n2. Log what your AI tools read and send.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 79,
+    "date": "2026-12-16",
+    "file": "huzosecurity-fact-79.png",
+    "caption": "65% of API attacks exploited security misconfiguration.\n\nMost API attacks don't need clever exploits. They use settings someone left wrong.\n\nWhat to do this week:\n1. Turn off debug mode and detailed errors in production.\n2. Check CORS and default logins on every API.\n\nSource: Salt Security, 1H 2026 State of AI and API Security\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 80,
+    "date": "2026-12-17",
+    "file": "huzosecurity-fact-80.png",
+    "caption": "Exploited vulnerabilities were the way in for 26% of breaches at small and medium businesses.\n\nThe top way into small firms is an unpatched hole. Not a genius hacker, just a missing update.\n\nWhat to do this week:\n1. Turn on automatic updates wherever you can.\n2. Check your internet-facing kit for missing patches.\n\nSource: Verizon DBIR 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 81,
+    "date": "2026-12-18",
+    "file": "huzosecurity-fact-81.png",
+    "caption": "Only 8% of organisations report advanced API security maturity.\n\nAPIs now carry most of your data. Most firms haven't caught up with that.\n\nWhat to do this week:\n1. Find out who owns API security in your business.\n2. Get your APIs tested, not just your website.\n\nSource: Salt Security, 1H 2026 State of AI and API Security\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 82,
+    "date": "2026-12-19",
+    "file": "huzosecurity-fact-82.png",
+    "caption": "78% of audited commercial codebases contained high-risk vulnerabilities.\n\nOld libraries don't announce themselves. They sit quietly until someone scans for them.\n\nWhat to do this week:\n1. Add dependency scanning to your build.\n2. Remove libraries nobody uses any more.\n\nSource: Black Duck, 2026 OSSRA Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 83,
+    "date": "2026-12-20",
+    "file": "huzosecurity-fact-83.png",
+    "caption": "72% of security leaders ranked AI attacks as their top concern.\n\nWorrying about AI attacks is the easy part. Testing your own AI features is what reduces the risk.\n\nWhat to do this week:\n1. List every AI feature customers can reach.\n2. Book a test that covers your chatbot or agent.\n\nSource: Cobalt, State of Pentesting Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 84,
+    "date": "2026-12-21",
+    "file": "huzosecurity-fact-84.png",
+    "caption": "Only 18% of organisations are extremely confident they could detect attacks using generative AI.\n\nAI-driven attacks can look like normal traffic. Without good logs you won't see them at all.\n\nWhat to do this week:\n1. Make sure login and API logs are switched on.\n2. Alert on unusual volumes from a single account.\n\nSource: Salt Security, 1H 2026 State of AI and API Security\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 85,
+    "date": "2026-12-22",
+    "file": "huzosecurity-fact-85.png",
+    "caption": "47% of organisations delayed a production release because of API security concerns.\n\nFinding problems late costs you launch dates. Testing earlier is cheaper than delaying.\n\nWhat to do this week:\n1. Test new APIs before release week, not during it.\n2. Build an ownership check into every new endpoint.\n\nSource: Salt Security, 1H 2026 State of AI and API Security\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 86,
+    "date": "2026-12-23",
+    "file": "huzosecurity-fact-86.png",
+    "caption": "Open source appears in 98% of commercial codebases.\n\nAlmost every app inherits someone else's code. And someone else's vulnerabilities.\n\nWhat to do this week:\n1. Keep a list of the libraries your app depends on.\n2. Watch for security alerts on each one.\n\nSource: Black Duck, 2026 OSSRA Report\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 87,
+    "date": "2026-12-24",
+    "file": "huzosecurity-fact-87.png",
+    "caption": "31% of AI-related security incidents caused operational disruption.\n\nWhen an AI tool is compromised, work can stop. Orders, support and supply chains can all stall.\n\nWhat to do this week:\n1. Know which processes depend on AI tools.\n2. Have a manual fallback for each one.\n\nSource: IBM Cost of a Data Breach Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 88,
+    "date": "2026-12-25",
+    "file": "huzosecurity-fact-88.png",
+    "caption": "Only 36% of new WordPress vulnerabilities in 2025 were an actual threat.\n\nNot every finding is urgent. Knowing which ones are is the whole job.\n\nWhat to do this week:\n1. Fix flaws that are being exploited right now first.\n2. Ask for proof a finding is real before you panic.\n\nSource: Patchstack, State of WordPress Security in 2026\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 89,
+    "date": "2026-12-26",
+    "file": "huzosecurity-fact-89.png",
+    "caption": "52% of security leaders said they are under pressure to put speed ahead of security.\n\nShipping fast is fine. Shipping untested isn't.\n\nWhat to do this week:\n1. Agree a minimum security check before each release.\n2. Retest after big changes, not once a year.\n\nSource: Cobalt, State of Pentesting Report 2025\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  },
+  {
+    "day": 90,
+    "date": "2026-12-27",
+    "file": "huzosecurity-fact-90.png",
+    "caption": "Almost a third of organisations (32%) had an API security incident in the past year.\n\nAPIs are now a front door to your data. Most firms don't watch them like one.\n\nWhat to do this week:\n1. Monitor API traffic for unusual patterns.\n2. Get your APIs tested before your next release.\n\nSource: Salt Security, 1H 2026 State of AI and API Security\n\nOur offer: we test your systems. Secure? It costs you nothing. Not secure? Your second test is free. huzosecurity.com\n\n#CyberSecurity #PenetrationTesting #UKBusiness #SmallBusiness #Manchester"
+  }
 ]
